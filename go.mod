@@ -4,7 +4,13 @@ go 1.19
 
 require (
 	github.com/openshift/ptp-operator v0.0.0-20220922002031-4e588c96d5d6
-	github.com/test-network-function/l2discovery-lib v0.0.0-20220926191411-f26c4946f1fc
+	github.com/test-network-function/l2discovery-lib v0.0.0-20220926221213-6b4259df4506
+	golang.org/x/image v0.0.0-20220902085622-e7cb96979f69
+)
+
+require (
+	github.com/fogleman/gg v1.3.0 // indirect
+	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0 // indirect
 )
 
 require (
@@ -20,6 +26,7 @@ require (
 	github.com/go-openapi/jsonpointer v0.19.5 // indirect
 	github.com/go-openapi/jsonreference v0.19.5 // indirect
 	github.com/go-openapi/swag v0.19.14 // indirect
+	github.com/goccy/go-graphviz v0.0.9
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/glog v1.0.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
@@ -44,9 +51,9 @@ require (
 	github.com/prometheus/client_model v0.2.0 // indirect
 	github.com/prometheus/common v0.32.1 // indirect
 	github.com/prometheus/procfs v0.7.3 // indirect
-	github.com/sirupsen/logrus v1.9.0 // indirect
+	github.com/sirupsen/logrus v1.9.0
 	github.com/spf13/pflag v1.0.5 // indirect
-	github.com/test-network-function/l2discovery-exports v0.0.0-20220926190927-5f72a82c96d4 // indirect
+	github.com/test-network-function/l2discovery-exports v0.0.0-20220926190927-5f72a82c96d4
 	github.com/test-network-function/privileged-daemonset v0.0.0-20220923160818-f61f26ba4b41 // indirect
 	github.com/yourbasic/graph v0.0.0-20210606180040-8ecfec1c2869 // indirect
 	golang.org/x/net v0.0.0-20220722155237-a158d28d115b // indirect
