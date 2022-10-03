@@ -4,13 +4,13 @@ go 1.19
 
 require (
 	github.com/openshift/ptp-operator v0.0.0-20220922002031-4e588c96d5d6
-	github.com/test-network-function/l2discovery-lib v0.0.0-20220926221213-6b4259df4506
-	golang.org/x/image v0.0.0-20220902085622-e7cb96979f69
+	github.com/test-network-function/l2discovery-lib v0.0.0-20220929174146-11627aded0a2
 )
 
 require (
 	github.com/fogleman/gg v1.3.0 // indirect
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0 // indirect
+	golang.org/x/image v0.0.0-20220902085622-e7cb96979f69 // indirect
 )
 
 require (
