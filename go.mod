@@ -53,7 +53,7 @@ require (
 	github.com/prometheus/procfs v0.7.3 // indirect
 	github.com/sirupsen/logrus v1.9.0
 	github.com/spf13/pflag v1.0.5 // indirect
-	github.com/test-network-function/l2discovery-exports v0.0.0-20220926190927-5f72a82c96d4
+	github.com/test-network-function/l2discovery-exports v0.0.3
 	github.com/test-network-function/privileged-daemonset v0.0.0-20220923160818-f61f26ba4b41 // indirect
 	github.com/yourbasic/graph v0.0.0-20210606180040-8ecfec1c2869 // indirect
 	golang.org/x/net v0.6.0 // indirect
