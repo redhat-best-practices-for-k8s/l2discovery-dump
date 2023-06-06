@@ -1,5 +1,5 @@
 lint:
-	golangci-lint run
+	golangci-lint run --timeout 10m0s
 build:
 	go build l2dump.go
 # Install golangci-lint	
