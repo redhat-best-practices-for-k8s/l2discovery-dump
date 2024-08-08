@@ -6,10 +6,10 @@ import (
 
 	"github.com/goccy/go-graphviz"
 	"github.com/goccy/go-graphviz/cgraph"
-	"github.com/openshift/ptp-operator/test/utils/client"
+	"github.com/openshift/ptp-operator/test/pkg/client"
+	l2exports "github.com/redhat-best-practices-for-k8s/l2discovery-exports"
+	l2lib "github.com/redhat-best-practices-for-k8s/l2discovery-lib"
 	"github.com/sirupsen/logrus"
-	l2exports "github.com/test-network-function/l2discovery-exports"
-	l2lib "github.com/test-network-function/l2discovery-lib"
 )
 
 var colors = []string{"aqua", "aquamarine", "bisque", "chartreuse", "cornflowerblue", "fuchsia", "yellow", "teal"}
